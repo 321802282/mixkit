@@ -6,6 +6,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/mixkit/',
   plugins: [
     vue(),
     vueJsx(),
@@ -19,5 +20,5 @@ export default defineConfig({
     watch: {
       usePolling: true
     }
-  }
+  },
 })
